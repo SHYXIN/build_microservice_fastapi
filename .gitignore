@@ -1,0 +1,58 @@
+# Python related
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+.env
+
+# Virtual environments
+venv/
+.venv/
+
+# FastAPI related
+instance/
+logs/
+secrets/
+*.log
+*.db
+*.sqlite3
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Editor/IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker related
+docker-compose.override.yml
+docker-compose.override.*
+docker-compose.debug.yml
+Dockerfile
+.dockerignore
+
+# pytest caches
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Mypy caches
+.mypy_cache/
+
+# Other caches and artifacts
+*.egg-info/
+dist/
+build/
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
